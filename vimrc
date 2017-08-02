@@ -14,7 +14,8 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color solarized
+"color solarized
+color darkblue
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -23,9 +24,11 @@ set cursorline cursorcolumn
 
 " search
 set incsearch
+set hlsearch
 "set highlight 	" conflict with highlight current line
-set ignorecase
+"set ignorecase
 set smartcase
+set nowrapscan
 
 " editor settings
 set history=1000
